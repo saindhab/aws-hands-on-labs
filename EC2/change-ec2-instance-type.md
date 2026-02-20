@@ -37,7 +37,6 @@
 
 Run inside terminal:
 
-```bash
 # Create and verify a file
 echo "Hello World" > hello.txt
 ls -l hello.txt
