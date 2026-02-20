@@ -8,14 +8,14 @@ This document contains the complete step‑by‑step process to launch an EC2 in
 - Sign in with your IAM/Root account.
 
 📸 **Screenshot:**
-![AWS Login](https://raw.githubusercontent.com/saindhab/aws-screenshots/main/aws-login.png)
+![AWS Login](https://raw.githubusercontent.com/saindhab/aws-screenshots/main/ec2/aws-login.png)
 
 ## **2️. Open EC2 Dashboard**
 - In the AWS search bar → type **EC2**  
 - Click **EC2 – Virtual Servers in the Cloud**
 
 📸 **Screenshot:**  
-![EC2 Dashboard](https://raw.githubusercontent.com/saindhab/aws-screenshots/main/EC2-Dashboard.png)
+![EC2 Dashboard](https://raw.githubusercontent.com/saindhab/aws-screenshots/main/ec2/EC2-Dashboard.png)
 
 3️. Launch a New EC2 Instance**
 - Click **Launch Instance**
@@ -25,7 +25,7 @@ This document contains the complete step‑by‑step process to launch an EC2 in
   - **t2.micro** instance type
 
 4. Creating key pair for ssh**
-![KeyPair](https://raw.githubusercontent.com/saindhab/aws-screenshots/main/SSH-KeyPair.png)
+![KeyPair](https://raw.githubusercontent.com/saindhab/aws-screenshots/main/ec2/SSH-KeyPair.png)
 - Under **Key Pair** → choose:
   - Create new key pair / select existing
   - Type: **RSA**
@@ -39,7 +39,7 @@ This document contains the complete step‑by‑step process to launch an EC2 in
   - **HTTP (80)** → Optional (for web servers)
 
 📸 **Screenshot:**  
-![Security Group](https://raw.githubusercontent.com/saindhab/aws-screenshots/main/SecurityGroup.png)
+![Security Group](https://raw.githubusercontent.com/saindhab/aws-screenshots/main/ec2/SecurityGroup.png)
 
 ## **6️⃣ Launch the Instance**
 - Scroll down  
@@ -49,7 +49,7 @@ This document contains the complete step‑by‑step process to launch an EC2 in
   - **Status checks:** 2/2 passed  
 
 📸 **Screenshot:**  
-![EC2 Instance Connect](https://raw.githubusercontent.com/saindhab/aws-screenshots/main/EC2-InstanceConnect.png)
+![EC2 Instance Connect](https://raw.githubusercontent.com/saindhab/aws-screenshots/main/ec2/EC2-InstanceConnect.png)
 - Select your instance  
 - Click **Connect**  
 - Select **EC2 Instance Connect**  
