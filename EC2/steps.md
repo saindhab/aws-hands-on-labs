@@ -1,8 +1,6 @@
 # 🚀 EC2 Instance Launch & Connection Guide (with Screenshots)
 
 This document contains the complete step‑by‑step process to launch an EC2 instance and connect using **EC2 Instance Connect**.  
-Add your screenshots in the designated places.
-
 ---
 
 ## **1️. Login to AWS Console**
