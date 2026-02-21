@@ -123,4 +123,4 @@ free -h
 free -m
 
 📸 Screenshot: 
-![EC2 Connect After Change](https://raw.githubusercontent.com/saindhab/aws-screenshots/main/ec2/EC2-statuscheck.png)
+![EC2 Connect After Change](https://raw.githubusercontent.com/saindhab/aws-screenshots/main/ec2/EC2-postchangetype.png)
