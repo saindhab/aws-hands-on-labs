@@ -10,16 +10,7 @@ Choose t2.micro
 Keep default network settings
 
 ## 2. Add EC2 User Data (Install httpd)
-In Advanced Details → User data, add:
------------------------------------------------------------
-#!/bin/bash
-# Use this for your user data (script from top to bottom)
-# install httpd (Linux 2 version)
-yum update -y
-yum install -y httpd
-systemctl start httpd
-systemctl enable httpd
-------------------------------------------------------------
+In Advanced Details → User data
 
 ✔ This script installs and starts Apache HTTP Server.
 Screenshot:
@@ -78,14 +69,7 @@ Screenshot:
 ## 7. Launch New Instance from the AMI
 Go to:
 AMIs → Select your AMI → Launch Instance
-This time, in Advanced Details → User Data, add:
-
---------------------------------------------------------------------------
-#!/bin/bash
-# Use this for your user data (script from top to bottom)
-# install httpd (Linux 2 version)
-echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
---------------------------------------------------------------------------
+This time, in Advanced Details → User Data, 
 
 💡 No need to install Apache again —
 The AMI already has httpd installed.
